@@ -1,0 +1,8 @@
+node_modules
+web/node_modules
+web/dist
+backend/target
+*.db
+*.db-shm
+*.db-wal
+.env

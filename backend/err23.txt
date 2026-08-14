@@ -1,0 +1,26 @@
+normalize_address: raw input (114 chars) = 01a05299317aebc1c588ae9d08abc52460f00f74a3d4310822d1745c0f45694e0ddd9dd27b558c743f9d1255bb86cdd313d1a860319ccf5f31
+normalize_address: decoded 57 bytes, leading byte = 0x01
+normalize_address: parsed as raw CIP-19 bytes (no CBOR wrapper)
+normalize_address: raw input (63 chars) = addr_test1wzuwwnmm7msjvp2m4v292pl9nsal376qqkwzywwhwtk0aysufmxqn
+build_lock_tx: PlutusData decode failed (decode error: unknown tag for plutus data tag), using raw bytes as BoundedBytes
+normalize_address: raw input (114 chars) = 00624d7b12a001aa6746bbc7c3898b2b4b444c6b9afe210e2f0197d342c7cf22fe65ebdfe6fa03589cacef3d7e93a26efea4559dc15740c390
+normalize_address: decoded 57 bytes, leading byte = 0x00
+normalize_address: parsed as raw CIP-19 bytes (no CBOR wrapper)
+normalize_address: raw input (63 chars) = addr_test1wzuwwnmm7msjvp2m4v292pl9nsal376qqkwzywwhwtk0aysufmxqn
+build_lock_tx: PlutusData decode failed (decode error: unknown tag for plutus data tag), using raw bytes as BoundedBytes
+normalize_address: raw input (114 chars) = 00624d7b12a001aa6746bbc7c3898b2b4b444c6b9afe210e2f0197d342c7cf22fe65ebdfe6fa03589cacef3d7e93a26efea4559dc15740c390
+normalize_address: decoded 57 bytes, leading byte = 0x00
+normalize_address: parsed as raw CIP-19 bytes (no CBOR wrapper)
+normalize_address: raw input (63 chars) = addr_test1wzuwwnmm7msjvp2m4v292pl9nsal376qqkwzywwhwtk0aysufmxqn
+build_lock_tx: PlutusData decode failed (decode error: unknown tag for plutus data tag), using raw bytes as BoundedBytes
+assemble_signed_tx: wallet witness leading byte = 0xa1 (104 bytes total)
+normalize_address: raw input (114 chars) = 01a05299317aebc1c588ae9d08abc52460f00f74a3d4310822d1745c0f45694e0ddd9dd27b558c743f9d1255bb86cdd313d1a860319ccf5f31
+normalize_address: decoded 57 bytes, leading byte = 0x01
+normalize_address: parsed as raw CIP-19 bytes (no CBOR wrapper)
+normalize_address: raw input (63 chars) = addr_test1wzuwwnmm7msjvp2m4v292pl9nsal376qqkwzywwhwtk0aysufmxqn
+build_lock_tx: PlutusData decode failed (decode error: unknown tag for plutus data tag), using raw bytes as BoundedBytes
+normalize_address: raw input (114 chars) = 01a05299317aebc1c588ae9d08abc52460f00f74a3d4310822d1745c0f45694e0ddd9dd27b558c743f9d1255bb86cdd313d1a860319ccf5f31
+normalize_address: decoded 57 bytes, leading byte = 0x01
+normalize_address: parsed as raw CIP-19 bytes (no CBOR wrapper)
+normalize_address: raw input (63 chars) = addr_test1wzuwwnmm7msjvp2m4v292pl9nsal376qqkwzywwhwtk0aysufmxqn
+build_lock_tx: PlutusData decode failed (decode error: unknown tag for plutus data tag), using raw bytes as BoundedBytes

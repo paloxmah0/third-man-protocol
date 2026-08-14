@@ -1,0 +1,14 @@
+{
+  "name": "third-man-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n backend,web -c blue,magenta \"npm:dev:backend\" \"npm:dev:web\"",
+    "dev:backend": "cargo run",
+    "dev:web": "npm --prefix web run dev",
+    "install:all": "npm --prefix web install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

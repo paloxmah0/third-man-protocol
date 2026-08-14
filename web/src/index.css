@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+html, body, #root { height: 100%; }
+
+body {
+  background:
+    radial-gradient(900px 600px at 15% -10%, rgba(124, 92, 255, 0.18), transparent 60%),
+    radial-gradient(800px 500px at 95% 0%, rgba(34, 211, 238, 0.12), transparent 55%),
+    radial-gradient(700px 700px at 50% 120%, rgba(52, 211, 153, 0.08), transparent 60%),
+    #070710;
+  background-attachment: fixed;
+}
+
+/* Aurora animated layer behind everything */
+.aurora {
+  position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden;
+}
+.aurora::before, .aurora::after {
+  content: ""; position: absolute; width: 60vw; height: 60vw; border-radius: 50%;
+  filter: blur(120px); opacity: 0.35; mix-blend-mode: screen;
+}
+.aurora::before { background: #7c5cff; top: -20%; left: -10%; animation: aurora 18s ease-in-out infinite; }
+.aurora::after  { background: #22d3ee; bottom: -25%; right: -15%; animation: aurora 22s ease-in-out infinite reverse; }
+
+@keyframes aurora {
+  0%,100% { transform: translate3d(-5%, -5%, 0) scale(1); }
+  50%     { transform: translate3d(8%, 6%, 0) scale(1.18); }
+}
+
+/* Glassmorphism card */
+.glass {
+  background: linear-gradient(180deg, rgba(28, 28, 56, 0.66), rgba(12, 12, 26, 0.66));
+  border: 1px solid rgba(124, 92, 255, 0.18);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  box-shadow: 0 24px 60px -28px rgba(0,0,0,0.7), inset 0 1px 0 rgba(255,255,255,0.04);
+}
+.glass-soft {
+  background: rgba(20, 20, 40, 0.45);
+  border: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(8px);
+}
+
+/* Glow buttons */
+.btn {
+  @apply rounded-xl px-4 py-2.5 font-medium transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #7c5cff, #6d28d9);
+  box-shadow: 0 10px 30px -10px rgba(124,92,255,0.6);
+  color: white;
+}
+.btn-primary:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 14px 36px -10px rgba(124,92,255,0.8); }
+.btn-ghost { @apply text-slate-300 hover:text-white border border-white/10 hover:border-white/25; }
+
+/* Seal: a circular wax-seal look for signatures */
+.seal {
+  background: radial-gradient(circle at 35% 30%, #a78bfa, #6d28d9 60%, #4c1d95);
+  box-shadow: 0 0 0 2px rgba(167,139,250,0.25), 0 8px 24px -6px rgba(109,40,217,0.6);
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: rgba(124,92,255,0.25); border-radius: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+.input {
+  @apply w-full rounded-lg bg-ink-700/60 border border-white/10 px-3 py-2.5 text-sm text-slate-100 placeholder:text-slate-500
+         focus:outline-none focus:border-accent/60 focus:ring-2 focus:ring-accent/20 transition;
+}
+.label { @apply text-xs font-medium text-slate-400 mb-1.5 block uppercase tracking-wider; }

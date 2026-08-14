@@ -1,0 +1,1 @@
+[2m2026-08-14T17:12:18.803007Z[0m [32m INFO[0m [2mthird_man_backend[0m[2m:[0m Third Man gateway listening on http://127.0.0.1:8080

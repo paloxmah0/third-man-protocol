@@ -1,0 +1,13 @@
+normalize_address: raw input (114 chars) = 01a05299317aebc1c588ae9d08abc52460f00f74a3d4310822d1745c0f45694e0ddd9dd27b558c743f9d1255bb86cdd313d1a860319ccf5f31
+normalize_address: decoded 57 bytes, leading byte = 0x01
+normalize_address: parsed as raw CIP-19 bytes (no CBOR wrapper)
+normalize_address: raw input (63 chars) = addr_test1wzuwwnmm7msjvp2m4v292pl9nsal376qqkwzywwhwtk0aysufmxqn
+build_lock_tx: depositor_bech32 = addr_test1qzs99xf30t4ur3vg46ws3279y3s0qrm5502rzzpz6969cr69d98qmhva6fa4trr587w3y4dmsmxaxy734psrr8x0tucszqj00h (querying Koios for UTxOs)
+build_lock_tx: PlutusData decode failed (decode error: unknown tag for plutus data tag), using raw bytes as BoundedBytes
+normalize_address: raw input (114 chars) = 01a05299317aebc1c588ae9d08abc52460f00f74a3d4310822d1745c0f45694e0ddd9dd27b558c743f9d1255bb86cdd313d1a860319ccf5f31
+normalize_address: decoded 57 bytes, leading byte = 0x01
+normalize_address: parsed as raw CIP-19 bytes (no CBOR wrapper)
+normalize_address: raw input (63 chars) = addr_test1wzuwwnmm7msjvp2m4v292pl9nsal376qqkwzywwhwtk0aysufmxqn
+build_lock_tx: depositor_bech32 = addr_test1qzs99xf30t4ur3vg46ws3279y3s0qrm5502rzzpz6969cr69d98qmhva6fa4trr587w3y4dmsmxaxy734psrr8x0tucszqj00h (querying Koios for UTxOs)
+build_lock_tx: PlutusData decode failed (decode error: unknown tag for plutus data tag), using raw bytes as BoundedBytes
+assemble_signed_tx: wallet witness leading byte = 0xa1 (104 bytes total)

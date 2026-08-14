@@ -1,0 +1,3 @@
+    Compiling thirdman/escrow 0.0.0 (C:\Users\san\AppData\Local\Temp\opencode\escrow-nuclear\escrow)
+    Compiling aiken-lang/stdlib v3.1.0 (C:\Users\san\AppData\Local\Temp\opencode\escrow-nuclear\escrow\build\packages\aiken-lang-stdlib)
+   Generating project's blueprint (C:\Users\san\AppData\Local\Temp\opencode\escrow-nuclear\escrow\plutus.json)
